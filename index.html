@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="static/index.css">
 </head>
 <body>
-    <h1>Chuck Norris Jokes</h1>
+
+    <img src="static/img/chucknorris_logo_coloured_small@2x.png" alt="chucknorris_logo_coloured_small">
     
-    <label for="category">Scegli una categoria:</label>
-    <select id="category">
+    <label class="chuck-norris-label" for="category">Scegli una categoria:</label>
+    <select class="chuck-norris-select" id="category">
         <option value="">Nessuna categoria</option>
         <option value="animal">Animal</option>
         <option value="career">Career</option>
@@ -29,7 +30,8 @@
         <option value="sport">Sport</option>
         <option value="travel">Travel</option>
     </select>
-
+    
+    <br>
     <div class="joke-container">
         <button id="loadJoke"> Genera Battuta</button>
         <p id="joke" aria-live="polite">Seleziona una categoria e premi il pulsante!</p>
